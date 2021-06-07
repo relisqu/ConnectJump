@@ -1,4 +1,4 @@
-# Template Project
+# Internship 2021 HC Team 2
 
 ## Technologies
 
