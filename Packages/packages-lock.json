@@ -1,20 +1,19 @@
 {
   "dependencies": {
-    "com.deltation.di-framework": {
-      "version": "https://github.com/Delt06/di-framework.git?path=Packages/com.deltation.di-framework",
+    "com.unity.2d.pixel-perfect": {
+      "version": "4.0.1",
       "depth": 0,
-      "source": "git",
+      "source": "registry",
       "dependencies": {},
-      "hash": "279170551defcc67178877b8f1b4f4770d21a086"
-    },
-    "com.deltation.entities": {
-      "version": "https://github.com/Delt06/entities.git?path=Packages/com.deltation.entities",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "c1d8b9f952b0a567d9f845285670f70ee0df2825"
+      "url": "https://packages.unity.com"
     },
     "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.2d.tilemap": {
       "version": "1.0.0",
       "depth": 0,
       "source": "builtin",
@@ -34,16 +33,9 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.device-simulator": {
-      "version": "2.2.4-preview",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -66,20 +58,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.ide.vscode": {
-      "version": "1.2.3",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.mathematics": {
-      "version": "1.1.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.mobile.android-logcat": {
       "version": "1.2.1",
       "depth": 0,
@@ -96,46 +74,9 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.render-pipelines.core": {
-      "version": "10.4.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.render-pipelines.universal": {
-      "version": "10.4.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.mathematics": "1.1.0",
-        "com.unity.render-pipelines.core": "10.4.0",
-        "com.unity.shadergraph": "10.4.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.searcher": {
-      "version": "4.3.1",
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.shadergraph": {
-      "version": "10.4.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "10.4.0",
-        "com.unity.searcher": "4.3.1"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.test-framework": {
       "version": "1.1.22",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6",
